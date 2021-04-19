@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #19ccaa;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-color: #000000;
+  outline: none;
+}
+
+.rgb-id {
+  position: relative;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.rgb-parent {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+.hex-id {
+   position: relative;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.hex-parent {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -8%;
+}
